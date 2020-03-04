@@ -1,0 +1,30 @@
+Student
+COSC4327-Operating Systems
+Assignment 3 Output
+
+
+Attempting to open the file...
+File is open
+Total processes: 4
+Process: A	Arrival Time: 0	Priority: 5	CPU Time: 8
+Process: B	Arrival Time: 2	Priority: 8	CPU Time: 72
+Process: C	Arrival Time: 5	Priority: 2	CPU Time: 7
+Process: D	Arrival Time: 7	Priority: 5	CPU Time: 16
+Context switch to process C
+ CPU time left on A: 2
+Finished Process: C
+Turnaround time: 8
+Context switch to process A
+Context switch to process D
+ CPU time left on A: 1
+Context switch to process A
+ CPU time left on D: 14
+Finished Process: A
+Turnaround time: 17
+Context switch to process D
+Finished Process: D
+Turnaround time: 24
+Context switch to process B
+Finished Process: B
+Turnaround time: 101
+Total time: 103	Average Turnaround Time: 37.5
